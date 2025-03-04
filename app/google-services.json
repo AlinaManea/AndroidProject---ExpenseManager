@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1005343409747",
+    "project_id": "proiect-dam-alina",
+    "storage_bucket": "proiect-dam-alina.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005343409747:android:587974f84d09175e4928a6",
+        "android_client_info": {
+          "package_name": "ro.ase.grupa1094"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJMwLPxNfvkXma394iiUF1SSNgQJTQG48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg_login"
+    tools:context=".Activitati.CalculSoldUtilizator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvSold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#344d99"
+            android:text="Soldul curent: 0 RON" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/tvVenit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#344d99"
+            android:text="Total venituri:" />
+
+        <TextView
+            android:id="@+id/tvCheltuiala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#344d99"
+            android:text="Total cheltuieli:"  />
+
+        <ProgressBar
+            android:id="@+id/pbProgresCheltuieli"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:progress="50"
+            android:max="100"
+            android:progressTint="#344d99"
+            android:layout_marginVertical="16dp" />
+
+        <TextView
+            android:id="@+id/tvProcentCheltuieli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="Cheltuieli: 50% din venituri" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/btnInapoiDeLaSold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Înapoi" />
+
+
+    </LinearLayout>
+</ScrollView>

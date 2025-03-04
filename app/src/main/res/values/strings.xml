@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tema2_Android</string>
+    <string-array name="tranzactii">
+        <item>CHELTUIALA</item>
+        <item>VENIT</item>
+    </string-array>
+</resources>

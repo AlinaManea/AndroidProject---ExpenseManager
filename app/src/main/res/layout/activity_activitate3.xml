@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg_login"
+    tools:context=".Activitati.ActivitateSetari">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="128dp"
+            android:layout_height="134dp"
+            app:srcCompat="@drawable/img_2" />
+
+        <TextView
+            android:id="@+id/textBuna"
+            android:layout_width="550dp"
+            android:layout_height="50dp"
+            android:text="    Despre noi. Setări."
+            android:textSize="13pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDespreNoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          Ținerea evidenței veniturilor și cheltuielilor n-a fost niciodată mai ușoară! Am creat un instrument prietenos și intuitiv, care să îți facă viața financiară mai simplă și mai organizată." />
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <CheckBox
+            android:id="@+id/checkBoxNotificari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vrei să primești notificări?" />
+
+        <TextView
+            android:id="@+id/tvValuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Curs valutar:" />
+
+        <RadioGroup
+            android:id="@+id/rgValuta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/rgRON"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RON" />
+
+            <RadioButton
+                android:id="@+id/rgEURO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EURO" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="8pt"
+            android:text="        Feedback și sugestii" />
+
+        <EditText
+            android:id="@+id/etFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/textRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="8pt"
+            android:text="        Rating" />
+        <EditText
+            android:id="@+id/etRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           />
+
+
+
+        <Button
+            android:id="@+id/btnFeedback"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#344d99"
+            android:text="Trimite feedback!" />
+
+        <Button
+            android:id="@+id/btnVizualizareFeedback"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#344d99"
+            android:text="Vezi feedback" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="19dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="8pt"
+            android:text="        Deconectare" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#344d99"
+            android:text="Deconectați-vă!" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bkg_login"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Lista dorinte cumparaturi:" />
+
+        <EditText
+            android:id="@+id/etDenumireProdus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Denumire produs" />
+
+        <EditText
+            android:id="@+id/etMagazin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nume magazin" />
+
+        <EditText
+            android:id="@+id/etPret"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pret"
+            android:inputType="number" />
+
+        <RadioGroup
+            android:id="@+id/rgNecesitate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/rbDA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DA" />
+
+            <RadioButton
+                android:id="@+id/rbNU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NU" />
+        </RadioGroup>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSave2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_menu_add"
+            android:contentDescription="Save"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabDelete2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_input_delete"
+            android:contentDescription="Delete"/>
+
+        <Button
+            android:id="@+id/btnGolireDate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Golire date" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Lista cheltuieli viitoare:" />
+
+        <ListView
+            android:id="@+id/lvCheltuieliViitoare"
+            android:layout_width="match_parent"
+            android:layout_height="375dp" />
+
+    </LinearLayout>
+</ScrollView>

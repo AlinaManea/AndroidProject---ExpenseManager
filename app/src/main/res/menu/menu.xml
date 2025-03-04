@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="LogIn" android:id="@+id/idLogIn"></item>
+    <item android:title="Tranzactii" android:id="@+id/idTranzactii"></item>
+    <item android:title="Adaugare" android:id="@+id/idAdaugare"></item>
+    <item android:title="Sold" android:id="@+id/idSold"></item>
+    <item android:title="TranzactiiFirebase" android:id="@+id/idTranzFirebase"></item>
+    <item android:title="Planificator" android:id="@+id/idChelt"></item>
+    <item android:title="Setari" android:id="@+id/idDespreNoi"></item>
+</menu>
